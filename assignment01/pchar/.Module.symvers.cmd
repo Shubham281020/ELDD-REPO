@@ -1,0 +1,1 @@
+cmd_/home/shubhaam/Desktop/repositery/ELDD-REPO/assignment01/pchar/Module.symvers :=  sed 's/ko$$/o/'  /home/shubhaam/Desktop/repositery/ELDD-REPO/assignment01/pchar/modules.order | scripts/mod/modpost -m -a    -o /home/shubhaam/Desktop/repositery/ELDD-REPO/assignment01/pchar/Module.symvers -e -i Module.symvers -T - 

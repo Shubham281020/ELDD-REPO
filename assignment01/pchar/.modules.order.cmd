@@ -1,0 +1,1 @@
+cmd_/home/shubhaam/Desktop/repositery/ELDD-REPO/assignment01/pchar/modules.order := {   echo /home/shubhaam/Desktop/repositery/ELDD-REPO/assignment01/pchar/pchar.ko; :; } > /home/shubhaam/Desktop/repositery/ELDD-REPO/assignment01/pchar/modules.order

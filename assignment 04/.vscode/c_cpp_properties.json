@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "linux-gcc-x64"
+    },
+    {
+      "name": "Drivers",
+      "defines": [
+        "__GNUC__",
+        "__KERNEL__",
+        "MODULE"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64",
+      "includePath": [
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/arch/x86/include",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/arch/x86/include/generated",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/include",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/generated",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/include/linux",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/arch/x86/include/uapi",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/arch/x86/include/generated/uapi",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/include/uapi",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/include/generated/uapi",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/ubuntu/include",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/include"
+      ],
+      "compilerArgs": [
+        "-nostdinc",
+        "-include",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/include/linux/kconfig.h",
+        "-include",
+        "/home/shubhaam/Desktop/kernel/linux-6.1.10/include/linux/compiler_types.h"
+      ]
+    }
+  ],
+  "version": 4
+}
